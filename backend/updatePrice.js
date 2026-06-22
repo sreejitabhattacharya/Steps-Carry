@@ -1,0 +1,1 @@
+require('dotenv').config(); const mongoose = require('mongoose'); require('./config/db')().then(async () => { const Product = require('./models/Product'); const res = await Product.updateOne({ name: 'Woman Belt' }, { "$set"': { price: 799 } }); console.log('Updated:', res); process.exit(0); }).catch(console.error);
