@@ -4,12 +4,12 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, getRe
 // Firebase config — .env theke newa (VITE_ prefix lagbe)
 // Jodi .env e set na thake, default values use hobe (existing project er jonno)
 const firebaseConfig = {
-  apiKey:            import.meta.env.VITE_FIREBASE_API_KEY            || "AIzaSyA8apwCgS2f3ZnqB5AvA5gI1qgF6nxY0PQ",
-  authDomain:        import.meta.env.VITE_FIREBASE_AUTH_DOMAIN        || "stepsandcarry.firebaseapp.com",
-  projectId:         import.meta.env.VITE_FIREBASE_PROJECT_ID         || "stepsandcarry",
-  storageBucket:     import.meta.env.VITE_FIREBASE_STORAGE_BUCKET     || "stepsandcarry.firebasestorage.app",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID|| "294226720513",
-  appId:             import.meta.env.VITE_FIREBASE_APP_ID             || "1:294226720513:web:891c194ba67a6ac72a8d00",
+  apiKey:            import.meta.env.VITE_FIREBASE_API_KEY            || "AIzaSyCfDRb68_kf7O56lFVtE5sWt4SFsMytFtg",
+  authDomain:        import.meta.env.VITE_FIREBASE_AUTH_DOMAIN        || "steps-and-carry.firebaseapp.com",
+  projectId:         import.meta.env.VITE_FIREBASE_PROJECT_ID         || "steps-and-carry",
+  storageBucket:     import.meta.env.VITE_FIREBASE_STORAGE_BUCKET     || "steps-and-carry.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID|| "355034826527",
+  appId:             import.meta.env.VITE_FIREBASE_APP_ID             || "1:355034826527:web:232ef939641f5843fdd22a",
 };
 
 const app = initializeApp(firebaseConfig);
