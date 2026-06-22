@@ -13,6 +13,11 @@ The platform is designed to bridge the gap between traditional retail shopping a
 The system also includes a comprehensive admin panel for managing products, customers, inventory, orders, and business operations efficiently.
 
 ---
+## 🌐 Live Demo
+
+🚀 Try the application here:
+
+**🔗 https://steps-carry-1.onrender.com**
 
 ## ✨ Features
 
